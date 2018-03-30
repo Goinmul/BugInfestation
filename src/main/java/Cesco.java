@@ -1,14 +1,13 @@
+import java.util.Scanner; // importing scanner class
 
-import java.util.Scanner;
-
-public class Cesco {
+public class Cesco { // This class' name
 	
-	public static void main (String args[]) {
+	public static void main (String args[]) { // main function where the program starts
 		
-		Scanner keyboard1 = new Scanner(System.in);
-		Fkiller myKiller = new Fkiller();
+		// Scanner keyboard1 = new Scanner(System.in); no need to use scanner in main function, so ...
+		Fkiller myKiller = new Fkiller(); // instantiating scanner class to use it
 
-		myKiller.countBug();
+		myKiller.countBug(); // in 'Fkiller' class, there is method 'countBug'. I instantiated it to use it.
 	}
 	
 }
