@@ -5,14 +5,14 @@ public class Fkiller { // The class name
 
 	public void countBug() { // Public method countBug.
 
-		Scanner keyboard2 = new Scanner(System.in);
+		Scanner keyboard2 = new Scanner(System.in); // Instantiating scanner.
 		
 		final double GROWTH_RATE = 0.95;
 		final double ONE_BUG_VOLUME = 0.002; // immortal variable! hahaha.
 
-		double population= 0;
-		double totalBugVolume = 0; // oiewjfoiewf
-		int count = 0;
+		double population= 0; // a double variable.
+		double totalBugVolume = 0; // a double variable.
+		int count = 0; // // an int variable.
 
 		totalBugVolume = population*ONE_BUG_VOLUME;
 
